@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "2.6"
+metadata:
+  name: com.tatatech.modelfilter
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: S4HANA1909
+          url: http://183.82.120.214:8701
+        app:
+          name: ZADM_BAS_CLNMDL
+          description: Deploy from BAS
+          package: ZADM_AB_ALL
+          transport: S4HK906318
+        exclude:
+          - /test/

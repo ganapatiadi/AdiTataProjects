@@ -1,0 +1,80 @@
+{
+	"Customers": [{
+		"CustomerID": 1,
+		"ContactName": "Sara1",
+		"City": "Dean",
+		"Country": "Poland",
+		"CompanyName": "Topicware"
+	}, {
+		"CustomerID": 2,
+		"ContactName": "Sara2",
+		"City": "Dean",
+		"Country": "Poland",
+		"CompanyName": "Topicware"
+	}, {
+		"CustomerID": 3,
+		"ContactName": "Sara3",
+		"City": "HYD",
+		"Country": "INDIA",
+		"CompanyName": "Topicware"
+	}, 
+	 {
+		"CustomerID": 4,
+		"ContactName": "Sara4",
+		"City": "Banglore",
+		"Country": "INDIA",
+		"CompanyName": "Topicware"
+	},
+	 {
+		"CustomerID": 5,
+		"ContactName": "Sara5",
+		"City": "Dean",
+		"Country": "Poland",
+		"CompanyName": "Topicware"
+	},{
+		"CustomerID": 6,
+		"ContactName": "Sara6",
+		"last_name": "Wood",
+		"email": "rwood3@gmpg.org",
+		"gender": "Male",
+		"country": "Tunisia",
+		"companyname": "Topicshots"
+	},
+	{
+		"CustomerID": 7,
+		"ContactName": "sara7",
+		"last_name": "Wood",
+		"email": "rwood3@gmpg.org",
+		"gender": "Male",
+		"country": "Tunisia",
+		"companyname": "Topicshots"
+	},
+	{
+		"CustomerID": 8,
+		"ContactName": "Russell",
+		"last_name": "Wood",
+		"email": "rwood3@gmpg.org",
+		"gender": "Male",
+		"country": "Tunisia",
+		"companyname": "Topicshots"
+	},
+	{
+		"CustomerID": 9,
+		"ContactName": "Russell",
+		"last_name": "Wood",
+		"email": "rwood3@gmpg.org",
+		"gender": "Male",
+		"country": "Tunisia",
+		"companyname": "Topicshots"
+	},
+	{
+		"CustomerID": 10,
+		"ContactName": "Russell",
+		"last_name": "Wood",
+		"email": "rwood3@gmpg.org",
+		"gender": "Male",
+		"country": "Tunisia",
+		"companyname": "Topicshots"
+	}
+ ]
+}

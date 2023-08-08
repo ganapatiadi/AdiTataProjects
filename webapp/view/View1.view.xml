@@ -1,0 +1,59 @@
+
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+ controllerName="com.tatatech.modelfilter.controller.View1">
+ <Page>
+ <content>
+<HBox>
+<Text text = "Search For Ctry"></Text>
+<SearchField liveChange = "onLiveChange"></SearchField>
+</HBox>
+
+<Table items="{/Customers}" noDataText="Drop column list items here and columns in the area above" id="__table0">
+				<ColumnListItem counter="0" id="__item0">
+					<cells>
+						<Text text="{CustomerID}" maxLines="0" id="__text8"/>
+						<Text text="{CompanyName}" maxLines="0" id="__text9"/>
+						<Text text="{ContactName}" maxLines="0" id="__text10"/>
+							<Text text="{Address}" maxLines="0" id="__text4"/>
+						<Text text="{City}" maxLines="0" id="__text3"/>
+					
+						<Text text="{Country}" maxLines="0" id="__text5"/></cells>
+				</ColumnListItem>
+				<columns>
+					<Column id="__column0">
+						<header>
+							<Label text="Customer ID" id="__label0"/>
+						</header>
+					</Column>
+					<Column id="__column1">
+						<header>
+							<Label text="Company Name" id="__label1"/>
+						</header>
+					</Column>
+					<Column id="__column2">
+						<header>
+							<Label text="Contact Name" id="__label2"/>
+						</header>
+					</Column>
+					<Column id="__column4">
+						<header>
+							<Label text="Address" id="__label4"/>
+						</header>
+					</Column>
+					<Column id="__column3">
+						<header>
+							<Label text="City" width="100%" id="__label3"/>
+						</header>
+					</Column>
+					
+					<Column id="__column5">
+						<header>
+							<Label text="Country" id="__label5"/>
+						</header>
+					</Column>
+				</columns>
+              
+                </Table>
+				  </content>
+				  </Page>
+</mvc:View>
